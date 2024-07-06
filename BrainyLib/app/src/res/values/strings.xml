@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">BrainyLib</string>
+    <string name="title_main">L I B R E R I A</string>
+    <string name="id">ID LIBRO</string>
+    <string name="title">TITULO LIBRO</string>
+    <string name="author">AUTOR (ES)</string>
+    <string name="editorial">EDITORIAL</string>
+    <string name="edition">EDICION</string>
+</resources>
