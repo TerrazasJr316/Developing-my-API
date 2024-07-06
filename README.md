@@ -4,4 +4,4 @@ Desarrollo mi primera API REST con IntelliJ IDEA Community Edition usando framew
 ## ¿Cómo se creo este proyecto?
 Proporsiono el sitio donde se agregaron las características del proyecto para desarrollar la API REST con [Spring](https://start.spring.io/)
 
-![]()
+![](./resources/Images/headline.png)
