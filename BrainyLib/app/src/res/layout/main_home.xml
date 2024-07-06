@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:id="@+id/main"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+tools:context=".MainActivity"
+android:orientation="vertical"
+android:gravity="center"
+android:background="@drawable/fondo_main">
+
+<LinearLayout
+    android:layout_width="400dp"
+    android:layout_height="match_parent"
+    android:layout_margin="40dp"
+    android:layout_marginBottom="40dp"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:background="#80D5D5D5"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="80dp"
+            android:layout_height="70dp"
+            android:layout_margin="15dp"
+            android:layout_weight="1"
+            android:rotationY="180"
+            app:srcCompat="@drawable/libro" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/handfine"
+            android:text="@string/title_main"
+            android:textColor="@color/white"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:translationZ="1dp" />
+
+        <ImageView
+            android:layout_width="80dp"
+            android:layout_height="70dp"
+            android:layout_margin="15dp"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/libro" />
+
+    </LinearLayout>
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/inputLibroID"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="30dp"
+                android:hint="ID del Libro"
+                android:inputType="number"
+                android:background="#CCD5D5D5"/>
+
+            <EditText
+                android:id="@+id/inputTitulo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="30dp"
+                android:hint="Título"
+                android:background="#CCD5D5D5"/>
+
+            <EditText
+                android:id="@+id/inputAutores"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="30dp"
+                android:hint="Autores"
+                android:background="#CCD5D5D5"/>
+
+            <EditText
+                android:id="@+id/inputEditorial"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="30dp"
+                android:hint="Editorial"
+                android:background="#CCD5D5D5"/>
+
+            <EditText
+                android:id="@+id/inputEdicion"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="30dp"
+                android:hint="Edición"
+                android:background="#CCD5D5D5"/>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="78dp"
+                android:orientation="vertical">
+
+
+                <LinearLayout
+                    android:layout_width="400dp"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:gravity="center">
+
+
+                    <Button
+                        android:id="@+id/btnConsult"
+                        android:layout_width="40dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="20dp"
+                        android:backgroundTint="@android:color/white"
+                        android:drawableLeft="@drawable/consult"
+                        android:padding="8dp" />
+
+                    <Button
+                        android:id="@+id/btnUpdate"
+                        android:layout_width="40dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="20dp"
+                        android:backgroundTint="@android:color/white"
+                        android:drawableLeft="@drawable/update"
+                        android:padding="8dp" />
+
+                    <Button
+                        android:id="@+id/btnDelete"
+                        android:layout_width="40dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="20dp"
+                        android:backgroundTint="@android:color/white"
+                        android:drawableLeft="@drawable/delete"
+                        android:padding="8dp" />
+
+                    <Button
+                        android:id="@+id/btnNew"
+                        android:layout_width="40dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="20dp"
+                        android:backgroundTint="@android:color/white"
+                        android:drawableLeft="@drawable/new_button"
+                        android:padding="8dp" />
+                    <Button
+                        android:id="@+id/btnConsultID"
+                        android:layout_width="40dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="20dp"
+                        android:backgroundTint="@android:color/white"
+                        android:drawableLeft="@drawable/consult_id"
+                        android:padding="8dp"/>
+
+                    <Button
+                        android:id="@+id/btnClear"
+                        android:layout_width="40dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="20dp"
+                        android:backgroundTint="@android:color/white"
+                        android:drawableLeft="@drawable/clear"
+                        android:padding="8dp" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/recyclerView"
+                    android:layout_width="match_parent"
+                    android:layout_height="500dp"
+                    android:layout_weight="30"
+                    android:background="#CCD5D5D5"/>
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
+
+</LinearLayout>
