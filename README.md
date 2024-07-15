@@ -11,3 +11,7 @@ Proporsiono el sitio donde se agregaron las características del proyecto para d
 ![](./resources/Images/headline.png)
 
 Una vez generado el proyecto y completado de cargar la inyección de paquetes y dependencias,
+
+## Encuéntrame en:
+
+[![YouTube](https://img.shields.io/badge/YouTube-Josue_Terrazas_Mendoza-FF0000?style=for-the-badge&logo=YouTube&logoColor=white&labelColor=101010)](https://youtube.com/@terrazasmendozajosue7523)
