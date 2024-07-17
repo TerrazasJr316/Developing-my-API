@@ -11,7 +11,7 @@ Proporsiono el sitio donde se agregaron las características del proyecto para d
 
 ![](./resources/Images/headline.png)
 
-Una vez generado el proyecto y completado de cargar la inyección de paquetes y dependencias, se generan los códigos correspondientes, te explico como funcionan y para seriven:
+Una vez generado el proyecto y completado de cargar la inyección de paquetes y dependencias, se generan los códigos correspondientes, te explico como funcionan y para sirven:
 
 
 
